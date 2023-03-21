@@ -4,6 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import { GrAppsRounded } from 'react-icons/gr';
 import { AiOutlineLogin } from 'react-icons/ai';
 import { AiOutlineUserAdd } from 'react-icons/ai';
+import { AiOutlineAppstoreAdd } from 'react-icons/ai';
 
 const Header = () => {
     return (
@@ -16,8 +17,12 @@ const Header = () => {
                 </Link>
             </div>
             <nav>
-                <Link href='/'>Главная</Link>
-                <Link href='/blog'>Статьи</Link>
+                
+                <Link href='/addpost'>
+                    <IconButton color='inerhit'>
+                        <AiOutlineAppstoreAdd />
+                    </IconButton>
+                </Link>
                 <Link href='/login'>
                     <IconButton color='inerhit'>
                         <AiOutlineLogin />

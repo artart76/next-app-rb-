@@ -1,6 +1,6 @@
 
 
-const Post = () => {
+const FullPost = () => {
   return (
     <div>
       <h1>POST</h1>
@@ -8,4 +8,4 @@ const Post = () => {
   )
 }
 
-export default Post;
+export default FullPost;
